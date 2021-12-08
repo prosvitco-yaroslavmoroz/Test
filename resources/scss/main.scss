@@ -275,7 +275,9 @@ body {
   }
 
   .top {
-    flex-direction: column;
+    @media(max-width: 767.98px) {
+      flex-direction: column;
+    }
   }
 }
 
